@@ -12,7 +12,7 @@ class Settings:
     _instance = None
 
     def __new__(cls) -> "Settings":
-        # Crea la instancia si no existe
+        """Crea la instancia si no existe"""
         if cls._instance is None:
             cls._instance = super(Settings, cls).__new__(cls)
             cls._instance._initialized = False
