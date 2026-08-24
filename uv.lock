@@ -1206,6 +1206,7 @@ dependencies = [
     { name = "langchain-community" },
     { name = "langchain-core" },
     { name = "langchain-openai" },
+    { name = "langgraph" },
     { name = "pypdf" },
 ]
 
@@ -1217,6 +1218,7 @@ requires-dist = [
     { name = "langchain-community", specifier = ">=0.4.2" },
     { name = "langchain-core", specifier = ">=1.6.0" },
     { name = "langchain-openai", specifier = ">=1.6.0" },
+    { name = "langgraph", specifier = ">=1.2.11" },
     { name = "pypdf", specifier = ">=6.16.1" },
 ]
 
